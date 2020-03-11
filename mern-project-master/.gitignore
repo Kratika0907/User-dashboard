@@ -1,0 +1,9 @@
+package-lock.json
+
+# Environment variables
+.env
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm

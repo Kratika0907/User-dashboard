@@ -1,0 +1,34 @@
+.container {
+  height : 180px;
+  width :150px;
+  padding: 10px;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.container img {
+  border : 1px solid;
+  border-radius: 50%;
+  height: 100px;
+  width : 100px;
+}
+.container > div:last-child {
+  color : orange;
+}
+.container > div:nth-child(4) {
+  color : green;
+}
+.container >div {
+  line-height: 1.5;
+}
+.container > div:first-of-type {
+  font-weight: 900;
+}
+.icon-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
